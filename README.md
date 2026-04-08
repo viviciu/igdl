@@ -21,6 +21,12 @@ A minimal CLI tool that downloads all images and videos from an Instagram post t
 The easiest way is with [pipx](https://pipx.pypa.io), which handles all the Python environment setup automatically.
 
 ```bash
+pip install igdl==0.1.0
+```
+
+If that didn't work, try this non PyPi install:
+
+```bash
 # Install pipx if you don't have it
 brew install pipx
 

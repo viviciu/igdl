@@ -5,8 +5,15 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "igdl"
 version = "0.1.0"
+description = "CLI tool to download images and videos from Instagram posts"
+readme = "README.md"
 requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "viviciu" }]
 dependencies = ["instaloader"]
+
+[project.urls]
+Homepage = "https://github.com/viviciu/igdl"
 
 [project.scripts]
 igdl = "igdl.cli:main"
